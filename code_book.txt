@@ -1,4 +1,5 @@
-A codebook for variables in "train.txt' and "test.txt" data files
+A codebook for variables in "tidy_data.txt" data files.
+A codebook for "tidy_data_agg.txt" data file is simillar but with the remaining variables averaged to activity-subject pairs.
 
 Activity: type of activity performed during measurment (factor 1-6)
 	1 WALKING
@@ -16,5 +17,6 @@ Activity: type of activity performed during measurment (factor 1-6)
 
 Subject: identifyier of a volounteer performing an activity (factor 1-30)
 
-Remaining variables: summary normalized measurements of 561 dimensions (numeric -1 - 1).
+Remaining variables: summary (mean, std) normalized measurements of all variables (numeric -1 - 1).
+	Total number of these variables is 66.
 	More specific information can be obtained from the "features_info.txt" file.
