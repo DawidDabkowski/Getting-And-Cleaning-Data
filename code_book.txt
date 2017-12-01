@@ -1,0 +1,20 @@
+A codebook for variables in "train.txt' and "test.txt" data files
+
+Activity: type of activity performed during measurment (factor 1-6)
+	1 WALKING
+
+	2 WALKING_UPSTAIRS
+	
+3 WALKING_DOWNSTAIRS
+	
+4 SITTING
+
+	5 STANDING
+	
+6 LAYING
+
+
+Subject: identifyier of a volounteer performing an activity (factor 1-30)
+
+Remaining variables: summary normalized measurements of 561 dimensions (numeric -1 - 1).
+	More specific information can be obtained from the "features_info.txt" file.
